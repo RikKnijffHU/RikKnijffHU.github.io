@@ -1,0 +1,25 @@
+{
+    "short_name": "poll",
+    "name": "Poll App",
+    "icons": [
+      {
+        "src": "./icons/polling-128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "./icons/polling-256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "./icons/polling-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/maps/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "theme_color": "#3367D6"
+  }

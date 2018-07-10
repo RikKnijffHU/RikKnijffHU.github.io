@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Trips</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="manifest" href="script/manifest.json">
+    <script src="../node_modules\chart.js\dist\Chart.min.js"></script>
+    <script src="./script/trips.js"></script>
+    <script src="./script/poll.js"></script>
+    
+</head>
+<body>
+    <div id="header">Mytrips</div>
+    <form action="" onsubmit="Submit(); return false">
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br>
+        <button onclick="">send</button>
+      </form>
+       
+      <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+    <div id="footer">
+        <span id="author">Waldo</span>
+        <span>&nbsp;&copy;&nbsp;</span>
+        <span id="copyrightyear">year</span>
+        <script>setFooterDate();</script>
+    </div>
+</body>
+</html>
